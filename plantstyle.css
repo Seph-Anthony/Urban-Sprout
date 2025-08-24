@@ -1,0 +1,596 @@
+body{  margin:0;padding:0;}
+.firstsection{ height:100vh;background-image:url("images/finalback.jpg");background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;}
+.firstnav{ flex-wrap:wrap;padding:20px;display:flex;align-items:center;justify-content:space-between;width:95%;max-width:1500px;margin:0 auto;}
+.outernav{display:flex;align-items:center;gap:20px;justify-content:center;flex-wrap:wrap;}
+.socials ul{list-style:none;padding:0;margin:0;display:flex;gap:25px;justify-content:center;flex-wrap:wrap;}
+.navfe{ transition: transform .3s ease; text-align:center;display:inline-block;color:white; font-size:15px;  font-family: "Funnel Display", sans-serif;}
+.divnav{ display:flex;flex-shrink:0;text-decoration:none;  font-family: "Unna", serif;;color:white;;font-size: 2.5vw; font-size:30px; margin-bottom:10px;}
+.navicons{  text-decoration: none; display:flex;align-items:center;gap:35px;justify-content:center;}
+.navicons a{  color:white;   font-size: 1.5vw; font-size:18px;}
+.navfe:hover{
+transform:translateY(-5px);
+}
+a{
+    text-decoration: none;
+}
+.outerwelcome{
+height:auto;
+    margin: 0 auto;
+    max-width: 1050px;
+    width:90%;
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-wrap: wrap;
+}
+.welcometo{
+     font-family: "Unna", serif;
+  
+font-size: 15px;
+  letter-spacing: 3px;
+
+}
+.discover{
+    text-align: center;
+    font-family: "Unna", serif;
+  font-style: normal;
+  font-size:50px;
+}
+.shop{
+
+    background-color:#eff2ef;
+    font-size:15px;
+   box-sizing: border-box;
+      font-family: "Funnel Display", sans-serif;
+    color:black;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform .5s ease;
+}
+.shop:hover{
+
+    transform:translateY(-15px);
+     box-shadow: 8px 8px 8px rgb(9, 9, 9,0.5);
+}
+
+/* SECOND SECTION */
+
+.secondsection{
+
+
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:1250px;
+    width:95%;
+    margin:0 auto;
+    margin-top:80px;
+}
+.newpshopnouter{
+
+    max-width:1120px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.innerdivnewp{
+  font-family: "Unna", serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size:40px;
+
+}
+
+.innerdivshopn{
+background-color:#779344 ;
+    font-size:15px;
+   box-sizing: border-box;
+      font-family: "Funnel Display", sans-serif;
+    color:rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom:30px;
+
+}
+
+.plantselect, .plantselect2{
+
+    margin-bottom:20px;
+
+    max-width:1250px;
+    flex-wrap: wrap;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap:10px;
+   
+
+}
+.firstplant, .secondplant, .thirdplant, .fourthplant, .fifthplant, .sixthplant{
+ 
+    max-width:380px;
+    width:100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: stretch;
+justify-content: center;
+
+
+margin:10px;
+
+
+}
+
+
+.firstpicture, .secondpicture, .thirdpicture, .fourthpicture, .fifthpicture, .sixthpicture{
+display: flex;
+align-items: center;
+justify-content:center;
+background-color: #F3F9F3;
+padding-top:50px;
+    
+}
+.birdnest, .hoya, .monster, .zzplant, .birdofparadise, .calath{
+    object-fit: contain;
+    height: 500px;
+    width:90%;
+}
+
+.fa-regular{
+
+    font-size: 13px;
+    color:grey;
+}
+.plantname{
+   font-family: "Unna", serif;
+    font-weight:300;
+    font-size: 14px;
+}
+.plantdes{
+font-size: 13px;
+color:grey;
+font-family: "Funnel Display", sans-serif;
+
+}
+.plantprice{
+font-weight: 600;
+    font-size: 13px;
+color:rgb(63, 62, 62);
+font-family: "Funnel Display", sans-serif;
+}
+
+/* THIRD SECTION */
+
+.thirdsection{
+
+
+display:flex;
+align-items: center;
+justify-content: center;
+gap:70px;
+flex-wrap: wrap;
+flex-direction: row;
+margin-top:90px;
+max-width:1250px;
+    width:95%;
+
+
+
+}
+.personholdplant{
+
+    
+    max-width:730px;
+    width:90%;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+.holdthis{
+
+    
+    height:570px;
+    
+    width:100%;
+    object-fit: cover;
+}
+.forpeople{
+
+    max-width:450px;
+    width:90%;
+
+}
+.loveplant{
+ font-family: "Unna", serif;
+ font-size: 40px;
+
+}
+.sweetsentence{
+
+    color:rgb(97, 95, 95);
+ font-family: "Funnel Display", sans-serif;
+letter-spacing: 1px;
+}
+
+.our{
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+
+}
+.readmore{
+    padding:0.1px;
+    box-sizing: border-box;
+    text-align:center;
+    max-width:110px;
+ font-family: "Funnel Display", sans-serif;
+ color:white;
+ background-color: #67A63D;
+    
+}
+
+/* FOURTHSECTION */
+
+.fourthsection{
+
+  
+    display:flex;
+    flex-direction: column;
+
+max-width:1350px;
+    width:95%;
+align-items: center;
+justify-content: center;
+margin: 100px auto;
+
+padding:10px;
+}
+
+.feedback{
+
+    box-sizing: border-box;
+    font-family:"Unna", serif ;
+    font-size: 40px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+ 
+    flex-direction: column;
+  
+
+}
+
+.littleline{
+     background-color: #67A63D;
+    width:40px;
+    
+    
+}
+
+.outercomments{
+
+    max-width:1250px;
+    width:90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    display:flex;
+    gap:30px;
+}
+
+.fa-quote-left{
+
+    color:rgb(104, 168, 62,0.5);
+    font-size:33px;
+
+}
+
+.comments{
+
+    font-weight: 500;
+    letter-spacing: 1px;
+     font-family: "Funnel Display", sans-serif;
+width:90%;
+    max-width:350px;
+padding:5px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profilepic{
+width:50px;
+
+ text-align: center;
+
+  
+}
+.firstcu, .secondcu, .thirdcu{
+
+
+    width:100%;
+object-fit: cover;
+border-radius:350px;
+  
+}
+.name{
+    font-weight: 700;
+    font-size:10px;
+    color:rgb(84, 82, 82);
+   font-family: "Funnel Display";
+   letter-spacing: 4px;
+}
+
+/* FITFH SECTION */
+
+.fifthsection{
+
+max-width:1500px;
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+background-image:url("images/secondback.jpg");
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin: 0 auto;
+padding-top: 100px;
+padding-bottom:100px;
+}
+
+.giftcard{
+
+ max-width: 1300px;
+    width:90%;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.givethegift{
+
+    font-size: 60px;
+     font-family: "Unna", serif;
+
+}
+.gift{
+position:relative;
+top:50px;
+letter-spacing: 2px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.enjoy{
+    position:relative;
+bottom:50px;
+    font-size: 15px;
+   font-family: "Funnel Display";
+
+    
+}
+.purchasenow{
+
+    letter-spacing: 0.5px;
+    font-size: 15px;
+      font-family: "Funnel Display";
+    background-color:white;
+    color:black;
+    padding:15px;
+ 
+}
+
+/* SIXTH SECTION */
+
+.sixthsection{
+
+display: flex;
+align-items: stretch;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+max-width: 1390px;
+width:100%;
+padding:30px;
+margin: 0 auto;
+background-color: #F3F9F3;
+}
+
+.outersixth{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+max-width: 350px;
+width:90%;
+
+margin: 0 auto;
+
+}
+
+.lockpic{
+   
+max-width:50px;
+padding:5px;
+
+text-align: center;
+width:50%;
+margin:10px;
+
+
+}
+
+.lock{
+
+    
+    color:white;
+ font-size: 25px;
+    width:70%;
+    padding:10px;
+    background-color: #67A63D;
+    border-radius: 900px;
+
+}
+.secure{
+    font-family: "Unna", serif;
+    font-weight: 500;
+    font-size: 18px;
+    position:relative;
+    top:8px;
+    
+    letter-spacing: 3px;
+
+}
+
+.smalldes{
+
+    font-size: 14px;
+    
+    font-family: sans-serif;
+    color:rgb(84, 82, 82);
+    letter-spacing: 0.5px;
+    position:relative;
+    bottom:5px;
+    
+    
+}
+
+/* SEVENTHSECTION */
+
+.seventhsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width:1410px;
+    padding: 60px 20px 40px 20px;
+    margin: 0 auto;
+    background-color: #141a0f;
+}
+
+.endnav ul { 
+    padding: 0;
+    margin: 0;
+}
+
+.listni {
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+    display: inline-block;
+    margin: 0 15px 30px 15px; 
+    font-size: 16px;
+}
+
+.subscribe p { 
+    color: white;
+    font-family: "Unna", serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.panginput {
+    flex-grow: 1; 
+}
+
+.puthere {
+    font-size: 16px;
+    padding: 15px 20px;
+    border: none;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.arisub {
+    background-color: #6A8B48; 
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.arisub:hover {
+    background-color: #7FAA55;
+}
+
+.clickhere {
+    padding: 15px 30px;
+    margin: 0;
+}
+
+.anotherendnav {
+    margin: 30px;
+}
+
+.anotherendnav a {
+    margin: 0 15px;
+    color: white;
+    font-size: 18px;
+}
+
+
+.seventhsection hr {
+    border: none;
+    height: 1px;
+    background-color: #2a3320; 
+    width: 100%;
+    max-width: 1410px; 
+    margin: 20px 0 30px 0; 
+}
+
+
+.plantshop {
+    width: 100%;
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    font-family: "Funnel Display", sans-serif;
+    padding: 0;
+    border: none; 
+}
+
+
+
+
+
+
+
+
+
+
